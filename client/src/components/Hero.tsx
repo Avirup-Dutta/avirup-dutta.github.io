@@ -26,17 +26,25 @@ export default function Hero() {
 
       {/* Content */}
       <div className="container relative z-10 flex flex-col items-center justify-center text-center gap-8 py-20">
-        <div className="space-y-4 max-w-3xl">
-          <div className="inline-block px-3 py-1 bg-card border border-border rounded-full text-sm text-accent font-mono mb-4">
-            Backend Engineer | System Designer
+        <div className="space-y-6 max-w-3xl">
+          {/* Name */}
+          <div className="space-y-2">
+            <h1 className="text-6xl md:text-7xl font-bold text-foreground leading-tight">
+              Avirup Dutta
+            </h1>
+            <p className="text-xl md:text-2xl text-accent font-mono font-semibold">
+              Backend Engineer & System Designer
+            </p>
+          </div>
+
+          {/* Badge */}
+          <div className="inline-block px-3 py-1 bg-card border border-border rounded-full text-sm text-muted-foreground font-mono">
+            Computer Science Student | Chittagong Independent University
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-            Building <span className="text-accent">scalable</span> systems
-          </h1>
-          
+          {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Computer Science student at Chittagong Independent University, passionate about backend engineering, REST APIs, and clean software architecture. Experienced with Java, Spring Boot, Go, and Next.js.
+            Passionate about building scalable backend systems, REST APIs, and clean software architecture. Experienced with Java, Spring Boot, Go, and Next.js. Strong interest in system design and problem solving.
           </p>
         </div>
 
