@@ -5,7 +5,7 @@ export default function About() {
       <div
         className="absolute inset-0 opacity-5 pointer-events-none"
         style={{
-          backgroundImage: 'url(/manus-storage/accent-pattern_e9752362.png)',
+          backgroundImage: 'url(/accent-pattern.png)',
           backgroundSize: '100px 100px',
         }}
       />

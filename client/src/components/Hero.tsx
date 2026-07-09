@@ -15,7 +15,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/manus-storage/hero-background_ac6fa38a.png)',
+          backgroundImage: 'url(/hero-background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

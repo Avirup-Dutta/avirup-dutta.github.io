@@ -11,11 +11,11 @@ export default function Footer() {
             {/* Brand */}
             <div className="space-y-2">
               <div className="flex items-center gap-2">
-                <img
-                  src="/manus-storage/logo_5f162fbf.png"
-                  alt="Avirup Dutta"
-                  className="w-6 h-6"
-                />
+              <img
+                src="/logo.png"
+                alt="Avirup Dutta"
+                className="w-6 h-6"
+              />
                 <span className="font-mono font-bold text-foreground">
                   avirup<span className="text-accent">.</span>dev
                 </span>

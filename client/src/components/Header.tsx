@@ -26,7 +26,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src="/manus-storage/logo_5f162fbf.png"
+            src="/logo.png"
             alt="Avirup Dutta"
             className="w-8 h-8"
           />
